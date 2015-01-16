@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:background="@drawable/space">
+
+
+<LinearLayout 
+    android:layout_width="170dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <Button 
+        android:id="@+id/coloniesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="@string/button_colonies" />
+    <Button 
+        android:id="@+id/ColonistButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="@string/button_colonist" />
+    <Button 
+        android:id="@+id/baseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="@string/button_bases" />
+    <Button 
+        android:id="@+id/militaryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="@string/button_miltiary" />
+   
+    <Button 
+        android:id="@+id/protectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="@string/button_protected" />
+    
+    <Button
+        android:id="@+id/doneConfig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="@string/done_config" />
+
+</LinearLayout>
+
+<LinearLayout
+    	android:layout_width="match_parent" android:layout_height="match_parent"
+    	android:orientation="vertical" >
+    
+    	<EditText 
+    	    android:id="@+id/editColonies"
+    	    android:background="#FFFFFF"
+    	    android:alpha=".5"
+    	    android:inputType="number"
+    	    android:ems="12"
+    	    android:gravity="center"
+    	    android:textStyle="bold" android:typeface="monospace"
+    	    android:layout_marginTop ="13dp"
+    	    android:layout_width="match_parent" android:layout_height="wrap_content" />
+    
+    		<EditText 
+    	    android:id="@+id/editColonists"
+    	    android:background="#FFFFFF"
+    	    android:alpha=".5"
+    	    android:inputType="number"
+    	    android:ems="12"
+    	    android:gravity="center"
+    	    android:textStyle="bold" android:typeface="monospace"
+    	    android:layout_width="match_parent" android:layout_height="wrap_content"
+    	    android:layout_marginTop="23dp"
+    	    />
+    	<EditText 
+    	    android:id="@+id/editBases"
+    	    android:background="#FFFFFF"
+    	    android:alpha=".5"
+    	    android:inputType="number"
+    	    android:ems="12"
+    	    android:gravity="center"
+    	    android:textStyle="bold" android:typeface="monospace"
+    	    android:layout_width="match_parent" android:layout_height="wrap_content"
+    	    android:layout_marginTop="23dp"
+    	    />
+    	<EditText 
+    	    android:id="@+id/editMilitary"
+    	    android:background="#FFFFFF"
+    	    android:alpha=".5"
+    	    android:inputType="number"
+    	    android:ems="12"
+    	    android:gravity="center"
+    	    android:textStyle="bold" android:typeface="monospace"
+    	    android:layout_width="match_parent" android:layout_height="wrap_content"
+    	    android:layout_marginTop="23dp"
+    	    />
+    	
+    	<TextView
+        android:id="@+id/ForceFieldInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" android:typeface="monospace"
+        android:text="@string/Planet_protected" />
+    	
+    	<Button
+    	    android:id="@+id/timeButton"
+    	    android:text="@string/button_name_time"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:textColor="#FFFFFF"
+    	    android:layout_marginTop="11dp"
+    	    android:layout_marginLeft="11dp"
+    	    />
+    </LinearLayout>
+</LinearLayout>
